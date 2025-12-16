@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project 1 — Border Radius Demo</title>
+  <style>
+    /* Reset */
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #f6f7fb;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: #111;
+    }
+
+    .card {
+      max-width: 680px;
+      background: #e53935;      /* red */
+      color: #fff;               /* white text */
+      padding: 24px 28px;
+      border-radius: 16px;       /* rounded corners */
+      box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+      line-height: 1.6;
+    }
+
+    .card h1 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Border-radius example</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt ea natus
+      voluptate doloremque quod laborum, ipsum quibusdam magnam, neque qui
+      suscipit sequi minus libero enim accusamus dolore quam repellendus numquam?
+    </p>
+  </main>
+</body>
+</html>
